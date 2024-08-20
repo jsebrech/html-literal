@@ -36,3 +36,7 @@ Functions:
 - `html`: the tagged template literal function that automatically encodes entities
 - `htmlRaw`: wrap a string to prevent encoding entities
 - `htmlEncode`: explicitly encode entities in a string
+
+## Syntax highlighting
+
+Install the *html-in-template-string* extension in VS code for syntax highlighting of the html.

@@ -17,8 +17,8 @@ const safe = 'some <em>witty</em> text';
 
 // html`` encodes by default, use htmlRaw to skip:
 document.getElementById('body').innerHTML = html`
-    Encode by default: ${unsafe}<br>
-    Use htmlRaw to skip: ${htmlRaw(safe)}
+    ${unsafe} <br>
+    ${htmlRaw(safe)}
 `;
 ```
 
@@ -26,7 +26,7 @@ Will output:
 
 ```html
 <body>
-    &lt;script&gt;alert(&#39;gotcha&#39;)&lt;/script&gt;<br>
+    &lt;script&gt;alert(&#39;gotcha&#39;)&lt;/script&gt; <br>
     some <em>witty</em> text
 </body>
 ```

@@ -10,7 +10,7 @@ Copy `html.js` somewhere into your project.
 Use it like this:
 
 ```
-import { html, htmlEncode, htmlRaw } from 'html.js';
+import { html, htmlEncode, htmlRaw } from './html.js';
 
 const unsafe = '<script>alert('gotcha')</script>';
 const safe = 'some <em>witty</em> text';
